@@ -382,7 +382,7 @@ function CargarTitulos() {
   tablaInformacion.appendChild(filaTitulos);
   let titulosColumnas = document.querySelectorAll("th");
   titulosColumnas.forEach((element) => {
-    element.addEventListener("click", OrdernarColumnas);
+    element.addEventListener("click", OrdenarColumnas);
   });
 }
 
@@ -402,7 +402,7 @@ function CalcularEdadPromedio() {
 }
 
 //Ordenamiento
-function OrdernarColumnas(e) {
+function OrdenarColumnas(e) {
   let criterio = e.currentTarget.innerText;
   criterio = criterio.toLowerCase();
 
