@@ -202,10 +202,10 @@ function AltaModificacion() {
         );
         arrayPersonas.push(HeroeAux);
       } else {
-        let futbolistoModificar = arrayPersonas.filter(
+        let HeroeModificar = arrayPersonas.filter(
           (element) => element.id == id
         );
-        futbolistoModificar[0].ActualizarDatos(
+        HeroeModificar[0].ActualizarDatos(
           nombre,
           apellido,
           edad,
