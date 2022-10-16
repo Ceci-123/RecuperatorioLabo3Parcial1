@@ -397,7 +397,7 @@ function CalcularEdadPromedio() {
     0
   );
   document.getElementById("textbox_calculo").value = (
-    acumulador / arrayPersonas.length
+    acumulador / arrayFiltrado.length
   ).toFixed(2);
 }
 
